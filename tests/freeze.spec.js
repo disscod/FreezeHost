@@ -68,7 +68,7 @@ async function getOAuthCallback(DISCORD_TOKEN) {
     const authURL =
         'https://discord.com/api/v9/oauth2/authorize?' +
         new URLSearchParams({
-            client_id: '1282067735378577429',
+            client_id: '1331295701388365998',
             response_type: 'code',
             redirect_uri: 'https://free.freezehost.pro/callback',
             scope: 'identify guilds email',
